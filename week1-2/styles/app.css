@@ -1,0 +1,85 @@
+.header{
+    position: fixed;
+    background: rgb(122, 211, 150);
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.horizontallist li{
+    display:inline;
+    font-size: x-large;
+    padding-right: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.divh2{
+    padding-left: 10px;
+    margin-right: 5px;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+.divhorizontallist, ul{
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.horizontallist, a, ul, li{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: rgb(161, 230, 182);
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 3px;
+}
+.divbody{
+    width: 100%;
+    height: 100%;
+    background: url("../images/bullbasaur.png") no-repeat ;
+    background-position: 150px 55px;
+    background-size: 40%;
+    padding-top: 25px;
+    display: block;
+}
+
+.h1{
+    padding-left: 840px;
+    padding-top: 110px ;
+    font-size: 40px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcomeparagraph{
+    padding-left: 840px;
+    font-size: 25px ;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.viewmore{
+    border-radius: 50px;
+    background: cadetblue;
+    padding: 25px 40px;
+}
+.divviewmore{
+    padding-left: 975px;
+    padding-top: 10px ;
+    font-size: 20px ;
+    font-family: 'Poppins', sans-serif;
+}
