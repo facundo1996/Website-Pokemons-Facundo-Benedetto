@@ -1,5 +1,6 @@
 body{
     background-color: rgb(234, 243, 237);
+    margin: 0 auto;
 }
 
 .header{
@@ -363,7 +364,7 @@ h3{
     width: 110px;
     
     
-    margin-left: 38%;
+    margin-left: 35%;
 
 
     border-radius: 50px;
@@ -400,9 +401,62 @@ h3{
     }
 }
 
+/* Formulario */
+.inputdiv{
+    margin-top: 10%;
 
+    
+    
 
+    width: 100%;
+    height: 600px;
+    
+    
+    background: url(../images/chikorita.png) no-repeat;
+    background-size: 40%;
+    background-position: 100% 15%;
+    
+}
+.h3contact{
+    margin-left: 19%;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.formbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form{
+    border-radius: 15px;
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 70px;
+}
+.send{
+    margin-top: 2%;
+    margin-left: 22%;
+    border-radius: 50px;
+    background: #7bcbab;
+    padding: 10px 30px;
+    border: solid #1c7474 2px;
+    font-size: 20px ;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width: 768px){
+    .inputdiv{
+        background-position: 100% 30%;
+    }
+}
 
-
-
-
+.footer{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background: #527969;
+    border-top: solid #1c7474 2px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+ 

@@ -5,136 +5,116 @@
   <title>Pokedex</title>
   <link rel="stylesheet" href="styles/app.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins|Roboto+Condensed&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-  
-  <header class="header">
+  <body>
+    <!-- HEADER -->
+    <header class="header">
 
-    <div id="home" class="divh2">
-        <a href="home.html"><img src="images/pokebola.png" class="logo"></a>
-        <a href="home.html"><h2 class="h2">Pokedex</h2></a>
-    </div>
-    
-    <div class="divhorizontallist">
-      <ul class="horizontallist">
-        <a href="#home"><li>Home</li></a>
-        <a href="#history"><li>History</li></a>
-        <a href="#"><li>Videos</li></a>
-        <a href="#"><li>Pokedex</li></a>
-        <a href="#"><li>My favs</li></a>
-      </ul>
-    </div>
-
-    
-
-    <!-- Burger Menu -->
-    <input class="menuinput" id="menu" type="checkbox">
-    <div class="divburger">
-      <label for="menu">
-        <img src="images/menu.svg">
-      </label>
-        <ul class="navlist">
-          <a href="#home" class="navlistitem"><li>Home</li></a>
-          <a href="#history" class="navlistitem"><li>History</li></a>
-          <a href="#" class="navlistitem"><li>Videos</li></a>
-          <a href="#" class="navlistitem"><li>Pokedex</li></a>
-          <a href="#" class="navlistitem"><li>My favs</li></a>
+      <div class="divh2">
+          <a href="home.html"><img src="images/pokebola.png" class="logo"></a>
+          <a href="home.html"><h2 class="h2">Pokedex</h2></a>
+      </div>
+      
+      <div class="divhorizontallist">
+        <ul class="horizontallist">
+          <a href="#home"><li>Home</li></a>
+          <a href="#history"><li>History</li></a>
+          <a href="#video"><li>Videos</li></a>
+          <a href="#"><li>Pokedex</li></a>
+          <a href="#"><li>My favs</li></a>
         </ul>
+      </div>
+
+      
+
+      <!-- Burger Menu -->
+      <input class="menuinput" id="menu" type="checkbox">
+      <div class="divburger">
+        <label for="menu">
+          <img src="images/menu.svg">
+        </label>
+          <ul class="navlist">
+            <a href="#home" class="navlistitem"><li>Home</li></a>
+            <a href="#history" class="navlistitem"><li>History</li></a>
+            <a href="#video" class="navlistitem"><li>Videos</li></a>
+            <a href="#" class="navlistitem"><li>Pokedex</li></a>
+            <a href="#" class="navlistitem"><li>My favs</li></a>
+          </ul>
+      </div>
+
+    </header>
+
+    <!-- Bullbasaur and  Welcome -->
+    <div id="home" class="divbody">
+        <h1 class="h1">Welcome to Pokedex</h1>
+        <p class="welcomeparagraph">Join our comunity to find pokémon's news.</p>
+        <a href="#" class="viewmore">View More</a>
     </div>
 
-  </header>
+    <!--  HISTORY -->
+    <div id="history" class="history1 displayblock">
+      <h3 class="agedivA">1980</h3>
+      <div class="h3div">
+        <h3>First steps</h3>
+      </div>
 
-  <!-- Bullbasaur and  Welcome -->
-  <div class="divbody">
-      <h1 class="h1">Welcome to Pokedex</h1>
-      <p class="welcomeparagraph">Join our comunity to find pokémon's news.</p>
-      <a href="#" class="viewmore">View More</a>
+      <div class="displayflex">
+        <h3 class="agediv">1980</h3>
+        <p class="textdiv">Pokémon is short for “Pocket Monsters", the original Japanese name. The franchise has its roots in a gaming magazine in the early 1980s in Japan—Game Freak, started by Satoshi Tajiri and Ken Sugimori. Tajiri was the writer, while Sugimori was the illustrator.</p>
+      </div>
+
+    </div>
+
+    <div class="history2 displayblock">
+
+      <div class="h3div2">
+        <h3>Game Boy</h3>
+      </div>
+
+      <div class="displayflex">
+        <p class="textdiv2">26 February 1996 marks the debut of the Pokémon franchise in the form of both those games on the Game Boy in Japan. At its heart, Pocket Monsters: Red and Green was a very basic Japanese role-playing game.</p>
+        <h3 class="agediv2">1996</h3>
+      </div>
+      <h3 class="agediv2A">1996</h3>
+    </div>
+
+    <div class="history3 displayblock">
+      <h3 class="agediv3A">1998</h3>
+      <div class="h3div3">
+        <h3>Pikachu</h3>
+      </div>
+
+      <div class="displayflex">
+        <h3 class="agediv3">1998</h3>
+        <p class="textdiv3">The popularity of the anime and Yellow, I believe, led to Pikachu becoming the most recognizable and loved Pokémon out there. Pocket Monsters’ success led to North America getting the games in 1998 for the Game Boy (as Pokémon Red and Blue). These few years in the public saw Pokémon go from a game about a hobby to a worldwide phenomenon</p>
+      </div>
   </div>
-
-  <!--  HISTORY -->
-  <div id="history" class="history1 displayblock">
-    <h3 class="agedivA">1980</h3>
-    <div class="h3div">
-      <h3>First steps</h3>
+    <!-- YOUTUBE VIDEO -->
+  <br>
+    <div id="video" class="videodiv1">
+      <iframe class="video" width="50%" height="315" src="https://www.youtube.com/embed/c2edLO4GxGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="videodiv2">
+        <h2 class="videoh2">Checkout the Official Pokémon YouTube Channel</h2>
+        <a class="linkvideo" href="https://www.youtube.com/channel/UCFctpiB_Hnlk3ejWfHqSm6Q" target="_blank">View more</a>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <div class="inputdiv">
+      <h3 class="h3contact">Contact us</h3>
+      <form class="formbox" action="">
+        <input type="text" placeholder=" Name" class="form">
+        <input type="email" placeholder=" Email address" class="form" required>
+        <input type="text" placeholder=" Subject" class="form">
+        <textarea name="massage" placeholder=" Message" id="massage" cols="30" rows="10" class="form"></textarea>
+        <button class="send">Send</button>
+      </form>
     </div>
 
-    <div class="displayflex">
-      <h3 class="agediv">1980</h3>
-      <p class="textdiv">Pokémon is short for “Pocket Monsters", the original Japanese name. The franchise has its roots in a gaming magazine in the early 1980s in Japan—Game Freak, started by Satoshi Tajiri and Ken Sugimori. Tajiri was the writer, while Sugimori was the illustrator.</p>
-    </div>
+    <footer class="footer">
+      <p>Pokemon page made by Facundo Benedetto</p>
+    </footer>
 
-  </div>
-
-
-  <div class="history2 displayblock">
-
-    <div class="h3div2">
-      <h3>Game Boy</h3>
-    </div>
-
-    <div class="displayflex">
-      <p class="textdiv2">26 February 1996 marks the debut of the Pokémon franchise in the form of both those games on the Game Boy in Japan. At its heart, Pocket Monsters: Red and Green was a very basic Japanese role-playing game.</p>
-      <h3 class="agediv2">1996</h3>
-    </div>
-    <h3 class="agediv2A">1996</h3>
-  </div>
-  
-
-  <div class="history3 displayblock">
-    <h3 class="agediv3A">1998</h3>
-    <div class="h3div3">
-      <h3>Pikachu</h3>
-    </div>
-
-    <div class="displayflex">
-      <h3 class="agediv3">1998</h3>
-      <p class="textdiv3">The popularity of the anime and Yellow, I believe, led to Pikachu becoming the most recognizable and loved Pokémon out there. Pocket Monsters’ success led to North America getting the games in 1998 for the Game Boy (as Pokémon Red and Blue). These few years in the public saw Pokémon go from a game about a hobby to a worldwide phenomenon</p>
-    </div>
-</div>
-  
-  
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-  <div class="videodiv1">
-    <iframe class="video" width="50%" height="315" src="https://www.youtube.com/embed/c2edLO4GxGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="videodiv2">
-      <h2 class="videoh2">Checkout the Official Pokémon YouTube Channel</h2>
-      <a class="linkvideo" href="https://www.youtube.com/channel/UCFctpiB_Hnlk3ejWfHqSm6Q">View more</a>
-    </div>
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-  
-  
-  <footer>
-  </footer>
-</body>
-
+  </body>
 </html>
