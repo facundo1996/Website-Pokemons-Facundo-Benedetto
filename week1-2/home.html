@@ -1,16 +1,18 @@
 <html lang="es">
 
 <head>
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Pokedex</title>
   <link rel="stylesheet" href="styles/app.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins|Roboto+Condensed&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/pokebola.png">
+  
 </head>
-
   <body>
     <!-- HEADER -->
-    <header class="header">
+    <header id="headerjs" class="header">
 
       <div class="divh2">
           <a href="home.html"><img src="images/pokebola.png" class="logo"></a>
@@ -45,12 +47,11 @@
       </div>
 
     </header>
-
     <!-- Bullbasaur and  Welcome -->
     <div id="home" class="divbody">
-        <h1 class="h1">Welcome to Pokedex</h1>
+        <h1 class="h1" id="h1">Welcome to Pokedex</h1>
         <p class="welcomeparagraph">Join our comunity to find pokémon's news.</p>
-        <a href="#" class="viewmore">View More</a>
+        <a id="lolo" href="#" class="viewmore">View More</a>
     </div>
 
     <!--  HISTORY -->
@@ -91,6 +92,7 @@
         <p class="textdiv3">The popularity of the anime and Yellow, I believe, led to Pikachu becoming the most recognizable and loved Pokémon out there. Pocket Monsters’ success led to North America getting the games in 1998 for the Game Boy (as Pokémon Red and Blue). These few years in the public saw Pokémon go from a game about a hobby to a worldwide phenomenon</p>
       </div>
   </div>
+
     <!-- YOUTUBE VIDEO -->
   <br>
     <div id="video" class="videodiv1">
@@ -100,6 +102,7 @@
         <a class="linkvideo" href="https://www.youtube.com/channel/UCFctpiB_Hnlk3ejWfHqSm6Q" target="_blank">View more</a>
       </div>
     </div>
+
     <!-- CONTACT -->
     <div class="inputdiv">
       <h3 class="h3contact">Contact us</h3>
@@ -111,10 +114,12 @@
         <button class="send">Send</button>
       </form>
     </div>
-
+    <!-- FOOTER -->
     <footer class="footer">
       <p>Pokemon page made by Facundo Benedetto</p>
     </footer>
 
+    <!-- JAVA SCRIPT -->
+    <script src="header.js"></script>
   </body>
 </html>

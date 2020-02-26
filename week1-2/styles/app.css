@@ -5,14 +5,15 @@ body{
 
 .header{
     position: fixed;
-    background: #7bcbab;
+    background: rgb(234, 243, 237);
     top: 0px; 
     left: 0px;
     right: 0px;
     display: flex;
     justify-content: space-between;
     height: 60px;
-    border-bottom: solid #1c7474 2px;
+    
+    /* border-bottom: solid #1c7474 2px; */
 }
 
 .horizontallist li{
