@@ -459,5 +459,54 @@ h3{
     color: white;
     font-family: 'Poppins', sans-serif;
     justify-content: center;
+    
 }
+
+/* -----------------------POKEDEX----------------------- */
+
+.divpokedex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.alldiv{
+    display: block;
+    box-shadow: 2px 2px 10px #666;
+    justify-content: center;
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    
+    
+}
+.imgpokedex{
+    display: block;
+    margin: auto;
+
+}
+.h3name{
+    text-align: center;
+    
+}
+.h3type{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.addfav{
+    display: block;
+    margin: auto;
+    margin-bottom: 25%;
+    margin-top: 25%;
+
  
+    border-radius: 50px;
+    background: #7bcbab;
+  
+    border: solid #1c7474 2px;
+    font-size: 20px ;
+    font-family: 'Poppins', sans-serif;
+}
