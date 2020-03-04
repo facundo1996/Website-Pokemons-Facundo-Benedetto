@@ -460,6 +460,7 @@ h3{
     color: white;
     font-family: 'Poppins', sans-serif;
     justify-content: center;
+
     
     
 }
@@ -482,7 +483,6 @@ h3{
     width: 20%;
     margin-right: 2%;
     margin-bottom: 2%;
-    
     
     
 }
@@ -565,4 +565,9 @@ h3{
     .divBuscador{
         padding-top: 15%;
     }
+}
+
+/* -------------my favs --------------- */
+.divpokedexfavs{
+    margin-top: 10%;
 }
