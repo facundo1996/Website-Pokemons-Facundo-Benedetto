@@ -1,0 +1,58 @@
+.divbody{
+    width: 100%;
+    height: 35rem;
+    background: url("../../styles/images/bullbasaur.png") no-repeat ;
+    background-position: 130px 0px;
+    background-size: 40%;
+    padding-top: 30px;
+    display: block;
+}
+
+.h1{
+    padding-left: 58%;
+    padding-top: 10% ;
+    font-size: 3rem ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcomeparagraph{
+    padding-left: 58%;
+    font-size: 25px ;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.viewmore{
+    border-radius: 50px;
+    background: #7bcbab;
+    padding: 20px 40px;
+    border: solid #1c7474 2px;
+    font-size: 20px ;
+    font-family: 'Poppins', sans-serif;
+    
+    margin-left: 70%;
+    margin-right: 0px;
+
+}
+
+@media (max-width: 768px){
+    .divbody{
+        height: 20rem;
+        padding-top: 60%;
+        padding-left: 0px;
+        text-align: center;
+        background-position: 50% 20%;
+    }
+    .h1{
+        display: contents;
+        justify-content:center;
+    }
+    .welcomeparagraph{
+        padding-left: 0px;
+    }
+    .viewmore{
+        
+        margin-left: 0px;
+        justify-content: center;
+    }
+}

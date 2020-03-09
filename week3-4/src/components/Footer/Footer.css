@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background: #527969;
+    border-top: solid #1c7474 2px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+    
+    
+}
