@@ -5,9 +5,10 @@ import './Header.css';
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
 
-    const getMenuItems = () => <ul>
+    const getMenuItems = () => <ul class="horizontallist">
         <Link to="/"><li>Home</li></Link>
         <Link to="/pokedex"><li>Pokedex</li></Link>
+        <Link to="/pokedex"><li>My Favs</li></Link>
     </ul>;
 
     return <header className="header">

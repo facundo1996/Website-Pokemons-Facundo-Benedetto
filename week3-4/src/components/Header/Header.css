@@ -4,6 +4,12 @@
     margin: auto;
     justify-content: space-between;
     padding: 10px;
+    
+}
+
+li{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
 }
 
 .header h2 {
