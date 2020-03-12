@@ -1,15 +1,22 @@
 .header {
+    position: fixed;
+    background: #7bcbab;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
     display: flex;
-    max-width: 1200px;
-    margin: auto;
     justify-content: space-between;
-    padding: 10px;
+    height: 60px;
+    
+    border-bottom: solid #1c7474 2px;
     
 }
 
 li{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
+    font-size: x-large;
+    padding-right: 10px;
 }
 
 .header h2 {
@@ -19,6 +26,8 @@ li{
 .header__logo a {
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 .header__logo__image {

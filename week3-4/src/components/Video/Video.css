@@ -1,0 +1,66 @@
+/* Video YOUTUBE */
+.videodiv1{
+    padding-top: 5%;
+    display: flex;
+    width: 100%;
+}
+.video{
+    width: 50%;
+
+    border-radius: 50px;
+    background: #7bcbab;
+    padding: 20px 40px;
+    border: solid #1c7474 2px;
+}
+.videodiv2{
+    justify-content: center;
+    width: 50%;
+}
+.videoh2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+.linkvideo{
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    
+    
+    margin-left: 35%;
+
+
+    border-radius: 50px;
+    background: #7bcbab;
+    padding: 20px 40px;
+    border: solid #1c7474 2px;
+    font-size: 20px ;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* VIDEO RESPONSIVE */
+@media (max-width: 768px){
+    .videodiv1{
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+    }
+    .video{
+        justify-content: center;
+        margin-left: 24%;
+    }
+    
+    .videoh2{
+        width: 100%;
+        margin: 0px;
+        margin-left: 50%;
+        
+    }
+    .linkvideo{
+        justify-content: center;
+        margin-left: 85%;
+    }
+}

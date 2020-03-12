@@ -17,8 +17,8 @@ const App = () => (
     <Suspense fallback={<div>Loading...</div>}>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/pokedex" component={Pokedex}/>
-        <Route exact path="/myfavs" component={Myfavs}/>
+        <Route exact path="/Pokedex" component={Pokedex}/>
+        <Route exact path="/Myfavs" component={Myfavs}/>
       </Switch>
     </Suspense>
   </Router>

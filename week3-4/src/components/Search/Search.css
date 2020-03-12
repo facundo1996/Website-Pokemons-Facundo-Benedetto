@@ -1,0 +1,41 @@
+
+/* -----------------------BUSCADOR----------------------- */
+
+.divBuscador{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+.inputBuscador{
+    width: 35%;
+    border-radius: 20px;
+    border-top: 3px tomato solid ;
+    border-right: 3px black solid ;
+    border-bottom: 3px white solid ;
+    border-left: 3px black solid ;
+    font-family: 'Poppins', sans-serif;
+    outline: 0px;
+}
+.searchBtn{
+    border-radius: 50px;
+    background: #7bcbab;
+    padding: 10px 40px;
+    border: solid #1c7474 2px;
+    font-size: 15px ;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.novisible{
+    display: none ;
+}
+
+@media (max-width: 768px){
+    .divBuscador{
+        padding-top: 15%;
+    }
+}
